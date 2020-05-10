@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  php:
+    image: php:7.3-fpm-stretch
+    volumes:
+      - ./config/php-fpm.d:/usr/local/etc/php-fpm.d
+      - ./data:/www
+    command: ["php-fpm", "-F"]
+    #privileged: true
