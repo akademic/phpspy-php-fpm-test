@@ -1,4 +1,4 @@
-#HOW TO USE
+# HOW TO USE
 
 1. Change directory to this repository root
 2. Run `docker-compose up -d`
@@ -8,6 +8,6 @@
 6. Observe not working behavior
 
 
-#TO STOP CONTAINER
+# TO STOP CONTAINER
 
 Run `docker-compose down`
